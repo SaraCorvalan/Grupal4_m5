@@ -10,7 +10,7 @@ create table usuarios (
     genero int,
     telefono varchar(12)
 );
-/* genero:   1=masculino, 2=femenino, 3=otro */
+/* genero: 1=masculino, 2=femenino, 3=otro */
 
 create table ingreso_usuarios (
 	id_ingreso int auto_increment primary key,
